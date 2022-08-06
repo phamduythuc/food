@@ -1,2 +1,2 @@
 # food
-https://food-oder.netlify.app/
+https://foods-oder.netlify.app/
