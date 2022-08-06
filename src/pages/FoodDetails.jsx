@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-import products from "../assets/fake-data/products";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/common-section/CommonSection";
 import FoodDetailsPage from "../components/frames/foodDetails/FoodDetailsPage";

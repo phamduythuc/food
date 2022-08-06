@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext } from "react";
 import { useFormik } from "formik";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../../../../config/firebase-Config";
@@ -50,7 +50,6 @@ function AuthForm() {
         })
         .catch((error) => {
           const errorCode = error.code;
-          const errorMessage = error.message;
           setLoading(false);
           setError(errorCode);
         });

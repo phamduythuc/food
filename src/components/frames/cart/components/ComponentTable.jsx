@@ -1,7 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../../../store/shopping-cart/cartSlice";
-import PriceFormat from "../../../UI/price/ToltalFormat";
 
 function ComponentTable(props) {
   const { id, image01, title, price, quantity } = props.items;

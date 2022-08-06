@@ -23,11 +23,11 @@ import product_06_image_01 from "../images/bread(1).png";
 import product_06_image_02 from "../images/bread(2).png";
 import product_06_image_03 from "../images/bread(3).png";
 
-import product_07_image_01 from "../images/bun-bo.png";
-import product_07_image_02 from "../images/pho-bo.png";
-import product_07_image_03 from "../images/pho-bo-2.png";
-import product_07_image_04 from "../images/pho-bo-3.png";
-import product_07_image_05 from "../images/pho-bo-4.png";
+// import product_07_image_01 from "../images/bun-bo.png";
+// import product_07_image_02 from "../images/pho-bo.png";
+// import product_07_image_03 from "../images/pho-bo-2.png";
+// import product_07_image_04 from "../images/pho-bo-3.png";
+// import product_07_image_05 from "../images/pho-bo-4.png";
 
 const products = [
   {

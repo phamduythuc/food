@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
 import ToltalFormat from "../../../UI/price/ToltalFormat";
 
 function BillCheckout() {
-  const totalAmount = useSelector((state) => state.cart.totalFormat);
   return (
     <>
       <div className="mt-4">

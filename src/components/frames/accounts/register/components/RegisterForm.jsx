@@ -2,7 +2,7 @@ import React from "react";
 import SnipperLoander from "../../../../UI/loader/SnipperLoander";
 import { Container, Row, Col } from "reactstrap";
 import { AlertTitle, Alert } from "@mui/material";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function RegisterForm(props) {
   return (

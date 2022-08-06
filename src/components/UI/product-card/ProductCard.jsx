@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "../../../styles/product-card.css";
 
@@ -8,7 +8,6 @@ import { useDispatch } from "react-redux";
 import { cartActions } from "../../../store/shopping-cart/cartSlice";
 
 import DialogBox from "../box/DialogBox";
-import PriceFormat from "../price/ToltalFormat";
 
 const ProductCard = (props) => {
   const { id, title, image01, price } = props.item;

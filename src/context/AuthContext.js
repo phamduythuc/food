@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { auth } from "../config/firebase-Config";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { onAuthStateChanged } from "firebase/auth";
 
 const AuthContext = React.createContext({
   accessToken: "",

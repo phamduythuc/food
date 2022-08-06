@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 
 import { ListGroup } from "reactstrap";
 import { Link } from "react-router-dom";
@@ -9,14 +9,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { cartUiActions } from "../../../store/shopping-cart/cartUiSlice";
 
 import "../../../styles/shopping-cart.css";
-import DialogBox from "../box/DialogBox";
 import ToltalFormat from "../price/ToltalFormat";
 
 const Carts = () => {
   const dispatch = useDispatch();
   const cartProducts = useSelector((state) => state.cart.cartItems);
-  const totalAmount = useSelector((state) => state.cart.totalAmount);
-  const [data, setData] = useState(false);
   const authContext = useContext(AuthContext);
 
   const toggleCart = () => {
