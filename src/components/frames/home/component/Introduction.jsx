@@ -32,7 +32,7 @@ function Introduction() {
                   </button>
                 </div>
 
-                <div className=" hero__service  d-flex align-items-center gap-5 mt-5 ">
+                <div className=" hero__service  d-flex align-items-center mt-5 ">
                   <p className=" d-flex align-items-center gap-2 ">
                     <span className="shipping__icon">
                       <i class="ri-car-line"></i>

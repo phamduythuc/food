@@ -10,7 +10,7 @@ const CommonSection = (props) => {
       <Container>
         <h2 className="text-white mb-3">{props.title}</h2>
         <h3 className="text-white mb-3">
-          Welcome to <strong>Now Food</strong>
+          Welcome to <strong>Food House</strong>
         </h3>
         {authContext.email !== "" ? (
           <p className="text-white text-common d-flex item-center justify-content-center gap-3">

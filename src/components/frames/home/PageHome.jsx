@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Category from "../../UI/category/Category";
 import BrandExperience from "./component/BrandExperience";
 import DisplayProduct from "./component/DisplayProduct";
@@ -10,6 +10,7 @@ import "../../../styles/home.css";
 import "../../../styles/hero-section.css";
 
 function PageHome() {
+  useEffect(() => window.scrollTo(0, 100));
   return (
     <>
       <Introduction />

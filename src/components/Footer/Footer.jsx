@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-import logo from "../../assets/images/res-logo.png";
+import logo from "../../assets/images/logo-food.png";
 
 import "../../styles/footer.css";
 
@@ -14,10 +14,10 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className=" footer__logo text-start">
               <img src={logo} alt="logo" />
-              <h5>Tasty Treat</h5>
+              <h5>Food House</h5>
               <p>
-                Thành lập đến nay là 5 với sự phát triển không ngừng FoodNow
-                từng bước đã có chỗ đứng trong lòng khách hàng
+                Thành lập đến nay là 5 năm với sự phát triển không ngừng Food
+                House từng bước đã có chỗ đứng trong lòng khách hàng
               </p>
             </div>
           </Col>

@@ -14,7 +14,7 @@ function BrandExperience() {
           <Col lg="6" md="6">
             <div className="why__tasty-treat">
               <h2 className="tasty__treat-title mb-4">
-                Tại sao là <span>Tasty Treat?</span>
+                Tại sao là <span>Food House?</span>
               </h2>
               <p className="tasty__treat-desc">
                 Luôn là sự đi đầu, luôn là sự đổi mới trong lĩnh vực của chúng

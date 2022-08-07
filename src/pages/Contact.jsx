@@ -1,10 +1,10 @@
 import React from "react";
-import PriceFormat from "../components/UI/price/ToltalFormat";
+import BrandExperience from "../components/frames/home/component/BrandExperience";
 
 const Contact = () => {
   return (
     <div>
-      <PriceFormat />
+      <BrandExperience />
     </div>
   );
 };

@@ -107,9 +107,13 @@
   .product__title {
     font-size: 1.2rem;
   }
-  .product__price,
+  .box-price {
+    flex-direction: column;
+  }
+  .product__price 
   .product__price span {
-    font-size: 1rem;
+    font-size: 10px;
+
   }
   .category,
   .category span {

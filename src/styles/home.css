@@ -79,13 +79,22 @@
   color: #777;
   line-height: 30px;
 }
+.hero__service p {
+  margin-right: 15px;
+}
 
 @media only screen and (max-width: 768px) {
+  .hero__content {
+    padding: 0 8px;
+    text-align: center;
+  }
   .hero__content h5 {
     font-size: 1rem;
   }
 
   .hero__content p {
+    width: 100%;
+    text-align: center;
     font-size: 0.8rem;
     line-height: 25px;
   }
@@ -99,9 +108,13 @@
     padding: 5px 15px;
     font-size: 0.7rem;
   }
+  .hero__service {
+    flex-direction: column;
+
+  }
 
   .hero__service p {
-    font-size: 0.7rem !important;
+    font-size: 15px !important;
   }
 
   .feature__item h5 {
