@@ -1,2 +1,4 @@
 # food
-https://foods-oder.netlify.app/
+https://oder-foods.vercel.app/
+npm install
+
